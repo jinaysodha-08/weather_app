@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/weather_app/static/css/main.a8a2d38d.css",
+    "main.js": "/weather_app/static/js/main.c1d8ed84.js",
+    "static/js/453.d758b70e.chunk.js": "/weather_app/static/js/453.d758b70e.chunk.js",
+    "static/media/Mode.svg": "/weather_app/static/media/Mode.57684ad1b231fc2396fb8085eeb26964.svg",
+    "static/media/wind 1.svg": "/weather_app/static/media/wind 1.60c577a03bc7b7636f420878047983fc.svg",
+    "static/media/uv-white 1.svg": "/weather_app/static/media/uv-white 1.36cc5a8ae3ba621e1e47a5f240055c6f.svg",
+    "static/media/humidity 1.svg": "/weather_app/static/media/humidity 1.b9f1af9efed8d6422d656d71f92f81e6.svg",
+    "static/media/pressure-white 1.svg": "/weather_app/static/media/pressure-white 1.a7f0f918026ba9365fd173b4fc5373e6.svg",
+    "index.html": "/weather_app/index.html",
+    "main.a8a2d38d.css.map": "/weather_app/static/css/main.a8a2d38d.css.map",
+    "main.c1d8ed84.js.map": "/weather_app/static/js/main.c1d8ed84.js.map",
+    "453.d758b70e.chunk.js.map": "/weather_app/static/js/453.d758b70e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8a2d38d.css",
+    "static/js/main.c1d8ed84.js"
+  ]
+}
