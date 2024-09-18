@@ -290,7 +290,7 @@ form {
   top: 15px;
   left: 24px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1 !important;
   color: white;
   font-size: 50px;
   font-weight: 700;
@@ -567,7 +567,7 @@ form {
   top: 302px;
   left: 113px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1;
   font-size: 15px;
   font-weight: 700;
   line-height: 30px;
@@ -933,12 +933,13 @@ form {
   .temp {
     font-size: 30px;
     line-height: 80px;
+    opacity: 1;
   }
 
   .temp-feel {
     display: flex;
     flex-wrap: nowrap !important;
-    transform: translateY(32px);
+    transform: translateY(30px);
     font-size: 18px;
     line-height: 25px;
     margin-right: 10px;
