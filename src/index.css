@@ -938,10 +938,10 @@ form {
   .temp-feel {
     display: flex;
     flex-wrap: nowrap !important;
-    transform: translateY(30px);
-    font-size: 20px;
+    transform: translateY(32px);
+    font-size: 18px;
     line-height: 25px;
-    margin-right: 15px;
+    margin-right: 10px;
   }
 
   /* .extra-data {
