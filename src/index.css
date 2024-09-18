@@ -557,6 +557,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* margin-left: -20px; */
 }
 
 .wind-speed {
@@ -854,6 +855,11 @@ form {
     width: 100%;
     max-width: 200px;
     font-size: 14px;
+  }
+
+  .search-input::placeholder {
+    color: #b3b3b3;
+    font-size: 12px;
   }
 
   .search-button {
