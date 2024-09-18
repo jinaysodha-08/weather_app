@@ -845,7 +845,7 @@ form {
     padding: 10px;
     /* margin: 0 auto; */
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-    transform: translateX(-20px) !important;
+    transform: translateX(5px) !important;
     display: flex;
     flex: 1;
     /* justify-content: flex-end; */
