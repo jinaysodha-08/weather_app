@@ -117,7 +117,7 @@ function App() {
 
   useEffect(() => {
     const [navigationEntry] = performance.getEntriesByType('navigation');
-    if (navigationEntry && navigationEntry.type === 'reload') {
+    if (navigationEntry && (navigationEntry.type === 'navigate' || navigationEntry.type === 'reload')) {
       fetchWeatherData(city);
     }
   }, []);
@@ -243,7 +243,7 @@ function App() {
                 className={`search-input ${darkMode ? 'search-input-dark' : 'search-input-light'}`}
                 placeholder="Search for your preferred city"
                 onChange={(event) => setCity(event.target.value)}
-                value={city}
+
               />
               {/* <button type='submit'>Search</button> */}
             </div>
